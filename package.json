@@ -17,8 +17,10 @@
     "drizzle-orm": "^0.44.5",
     "mysql2": "^3.14.4",
     "next": "15.5.2",
+    "nextjs-toast-notify": "^1.47.0",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "swr": "^2.3.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

@@ -8,6 +8,13 @@
       "when": 1757176701717,
       "tag": "0000_late_lightspeed",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1757190812616,
+      "tag": "0001_white_scalphunter",
+      "breakpoints": true
     }
   ]
 }

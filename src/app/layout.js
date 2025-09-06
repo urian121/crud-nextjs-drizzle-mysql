@@ -8,12 +8,6 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata = {
   title: "CRUD NextJS Drizzle MySQL",
   description: "Aprender a crear un FullStack con NextJS Drizzle MySQL",

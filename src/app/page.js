@@ -1,18 +1,24 @@
-import { db } from "@/db" // importamos la conexión
-import { users } from "@/db/schema" // importamos la tabla
+"use client";
 
-export default async function Home() {
-const list = await db.select().from(users)
-console.log(list);
+import { useState } from "react";
+import UserForm from "./components/users/UserForm";
+import UserList from "./components/users/UserList";
+import Navbar from "./components/Navbar";
+
+export default function Home() {
+  const [selectedUser, setSelectedUser] = useState(null);
+
+  const clearSelection = () => setSelectedUser(null);
 
   return (
-      <div>
-          <h1>Usuarios</h1>
-          <ul>
-            {list.map(u => (
-              <li key={u.id}>{u.name} — {u.email}</li>
-            ))}
-          </ul>
+    <>
+      <Navbar />
+      <div className="container py-4">
+        <div className="row">
+          <UserForm selectedUser={selectedUser} clearSelection={clearSelection} />
+          <UserList onEdit={setSelectedUser} />
+        </div>
       </div>
+    </>
   );
 }
