@@ -1,7 +1,10 @@
 # CRUD con Next.js 15 + Drizzle ORM + MySQL/MariaDB (JavaScript)
 
-Este proyecto muestra cómo crear un CRUD paso a paso usando **Next.js 15**, **Drizzle ORM** y **MySQL/MariaDB**, sin TypeScript.
+Este proyecto muestra cómo crear un sistema CRUD completo paso a paso usando `Next.js 15`, `Drizzle ORM` y `MySQL/MariaDB`, implementado completamente en JavaScript sin necesidad de TypeScript.
+La aplicación incluye todas las operaciones básicas de base de datos (Crear, Leer, Actualizar y Eliminar) con una interfaz moderna y responsiva, utilizando las últimas características de Next.js como App Router y Server Components.
+**Drizzle ORM** proporciona una experiencia de desarrollo excelente con autocompletado inteligente y consultas SQL type-safe, mientras que la integración con MySQL/MariaDB garantiza un rendimiento óptimo y escalabilidad para aplicaciones de producción.
 
+![image](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/refs/heads/master/CRUD-NextJS-Drizzle-MySQL.gif)
 
 ## 1. Crear proyecto Next.js
 
@@ -271,4 +274,15 @@ export async function DELETE(req, { params }) {
 }
 
 ```
-✅ Listo, ya tienes un CRUD funcional con **Next.js + Drizzle ORM + MySQL/MariaDB** en **JavaScript**.
+
+
+## 🙌 Cómo puedes apoyar 📢:
+✨ **Comparte este proyecto** con otros desarrolladores para que puedan beneficiarse 📢.
+☕ **Invítame un café o una cerveza 🍺**:
+   - [Paypal](https://www.paypal.me/iamdeveloper86) (`iamdeveloper86@gmail.com`).
+
+### ⚡ ¡No olvides SUSCRIBIRTE a la [Comunidad WebDeveloper](https://www.youtube.com/WebDeveloperUrianViera?sub_confirmation=1)!
+
+#### ⭐ **Déjanos una estrella en GitHub**:
+   - Dicen que trae buena suerte 🍀.
+**Gracias por tu apoyo 🤓.**
